@@ -10,7 +10,7 @@ function Appp() {
          return (
               <div>
 				<form className='pokemon-form' onSubmit={handleSubmit}>
-					<label className='pokemon-name'>
+					<label className='pokemon-name' htmlFor='pokenName-input'>
 						Pokemon name
 					</label>
 					<div className='pkemom'>
@@ -22,8 +22,8 @@ function Appp() {
 					</div>
 					
 					<div>
-						<input type='text'></input>
-						<button >submit</button>
+						<input type='text' id='pokenName-input' placeholder='pokemon Name...'></input>
+						<button type="submit">submit</button>
 					</div>
 					
 				</form>
